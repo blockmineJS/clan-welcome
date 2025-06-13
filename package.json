@@ -1,6 +1,6 @@
 {
     "name": "clan-welcome",
-    "version": "v1.0.3",
+    "version": "1.0.3",
     "description": "Отправляет настраиваемое сообщение в чат, когда игрок присоединяется к клану.",
     "main": "index.js",
     "botpanel": {
