@@ -18,7 +18,7 @@ module.exports = (bot, options) => {
 
         log(`[ClanWelcome] Игрок ${username} вошел в клан. Отправка приветствия: "${finalMessage}"`);
         
-        bot.api.sendMessage('chat', finalMessage);
+        bot.api.sendMessage('clan', finalMessage);
     };
 
     bot.events.on('clan:player_joined', onPlayerJoinedClan);
