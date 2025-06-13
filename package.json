@@ -1,0 +1,22 @@
+{
+    "name": "clan-welcome",
+    "version": "1.0.0",
+    "description": "Отправляет настраиваемое сообщение в чат, когда игрок присоединяется к клану.",
+    "main": "index.js",
+    "botpanel": {
+      "dependencies": {
+        "clan-events-parser": "*"
+      },
+      "settings": {
+        "welcomeMessages": {
+          "type": "string[]",
+          "label": "Сообщения при входе в клан",
+          "description": "Список сообщений, из которого будет выбрано случайное. Используйте {username} для подстановки ника.",
+          "default": [
+            "Добро пожаловать в клан, {username}!",
+            "Рады видеть в наших рядах, {username}!"
+          ]
+        }
+      }
+    }
+  }
