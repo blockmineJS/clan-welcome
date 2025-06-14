@@ -5,7 +5,7 @@
     "main": "index.js",
     "botpanel": {
       "dependencies": {
-        "clan-events-parser": "*"
+        "clan-events-keksik": "*"
       },
       "settings": {
         "welcomeMessages": {
